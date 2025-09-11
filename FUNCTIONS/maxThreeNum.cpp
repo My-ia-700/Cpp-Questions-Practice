@@ -1,5 +1,5 @@
-#include<iostream>
-using namespace std ;
+#include <iostream>
+using namespace std;
 
 // void maxNum(int a, int b, int c){
 //     if(a>b){
@@ -17,13 +17,17 @@ using namespace std ;
 //         cout << "c is max of three numbers : " << c <<endl;
 //     }
 // }
-void maxNum(int n1,int n2,int n3){
-    // Using inbuilt function -> max
-    int ans1 = max(n1,n2);
-    int final = max(ans1,n3);
-    cout << "Final Ans is : "<< final << endl ;
+int maxNum(int n1, int n2, int n3)
+{
+    // Using inbuilt function / predefinte function -> max
+    int ans1 = max(n1, n2);
+    int final = max(ans1, n3);
+    // cout << "Final Ans is : "<< final << endl ;
+    return final;
 }
-int main(){
-    maxNum(5,6,8);
+int main()
+{
+    int maximum = maxNum(5, 6, 8);
+    cout << "Final Ans is : " << maximum << endl;
     return 0;
 }
