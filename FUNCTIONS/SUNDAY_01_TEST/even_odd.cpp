@@ -5,6 +5,12 @@ bool is_even(int n1)
 { // bool -> for condition check kr rhe ahin
     if (n1 % 2 == 0)
         return true;
+
+        // else if (condition) // by write only elif+enter se ye pura code mil jata h 
+        // {
+        //     /* code */
+        // }
+        
     else
     {
         return false;
