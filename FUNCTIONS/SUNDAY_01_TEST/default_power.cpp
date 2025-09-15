@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-int calculate_power(int base, int exponent = 3) // default power setup here
+void calculate_power(int base, int exponent = 3) // default power setup here
 {
     for (int i = 1; i <= base; i++)
     {
