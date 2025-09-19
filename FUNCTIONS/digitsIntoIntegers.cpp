@@ -30,6 +30,6 @@ int main()
     int n;
     cin >> n;
     int rev = reverseDigit(n); // rev = 4321
-    printDigit(rev); 
+    printDigit(rev);
     return 0;
 }

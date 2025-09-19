@@ -6,7 +6,7 @@ using namespace std;
 // function defination
 void reverseString(string &statement)
 {
-    reverse(statement.begin(), statement.end()); 
+    reverse(statement.begin(), statement.end());
 }
 
 int main()

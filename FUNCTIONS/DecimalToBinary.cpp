@@ -51,7 +51,7 @@ int print_correct_format(int num)
 int main()
 {
     int n;
-    cout << "Enter the Deciaml no. : " ;
+    cout << "Enter the Deciaml no. : ";
     cin >> n;
     int Bit = decimal_to_binary(n);
     int reversed = print_correct_format(Bit);

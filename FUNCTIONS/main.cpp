@@ -9,14 +9,14 @@ using namespace std;
 // }
 
 // function declaration
-void printLine(); 
+void printLine();
 
 int main()
 {
     // function calling
 
     printLine();
-    
+
     return -1; // integral value allowed
 }
 // function define
