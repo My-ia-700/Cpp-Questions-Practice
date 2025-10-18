@@ -2,12 +2,13 @@
 using namespace std;
 int main()
 {
-    // int n;
-    // cin >> n;
-    // if (cin >> n)
-    // {
-    //     cout << " Love Life ";
-    // }
+    int n;
+    cin >> n;
+    cout << n << endl;
+    if (cin >> n)
+    {
+        cout << " Love Life ";
+    }
     // float principle , rate , time ;
     // cout << " principle = ";
     // cin >> principle ;
@@ -40,22 +41,22 @@ int main()
     // else{
     //     cout << "odd";
     // }
-    int a , b ,c ;
-    cout << "a = ";
-    cin >> a ;
-    cout << "b = ";
-    cin >> b ;
-    cout << "c = ";
-    cin >> c ;
-    if( a > b || a > c){
-        if( b > c){
-            cout << "b is greater";
-        }
-        else{
-            cout << "c is greater";
-        }
-    }
-    else if(b > c || b >> a){
+    // int a , b ,c ;
+    // cout << "a = ";
+    // cin >> a ;
+    // cout << "b = ";
+    // cin >> b ;
+    // cout << "c = ";
+    // cin >> c ;
+    // if( a > b || a > c){
+    //     if( b > c){
+    //         cout << "b is greater";
+    //     }
+    //     else{
+    //         cout << "c is greater";
+    //     }
+    // }
+    // else if(b > c || b >> a){
         
-    }
+    // }
 }
