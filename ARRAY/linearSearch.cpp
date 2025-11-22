@@ -1,28 +1,14 @@
 #include <iostream>
 using namespace std;
-void input(int num)
+int main()
 {
-    int arr[num];
-    int n = num;
-    for (int i = 0; i < n; i++)
-    {
-        cin >> arr[i];
-    }
-    cout << "The array : " ; 
-    for (int i = 0; i < n; i++)
-    {
-        cout << arr[i] << " ";
-    }
-    cout << endl ;
-}
-void flag(int num)
-{
-    bool flag = 0;
-    int n = 5;
     int arr[5] = {1, 2, 3, 4, 5};
+    int n = 5;
+    int target = 7;
+    bool flag = 0; // initially set the target is not found 
     for (int i = 0; i < n; i++)
     {
-        if (arr[i] == num)
+        if (arr[i] == target)
         {
             flag = 1;
             break;
@@ -30,21 +16,11 @@ void flag(int num)
     }
     if (flag == 1)
     {
-        cout << "target found ";
+        cout << " target is found " << endl;
     }
     else
     {
-        cout << "target not found ";
+        cout << " target is not found " << endl;
     }
-}
-int main()
-{
-    int n;
-    cout << "Enter the lenght of an array : ";
-    cin >> n;
-    input(n);
-    int target;
-    cout << "Enter the target : ";
-    cin >> target;
-    flag(target);
+    return 0;
 }

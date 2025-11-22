@@ -1,12 +1,14 @@
 #include <iostream>
 using namespace std;
-void printArray(int arr[], int size)
+
+void printArr(int arr[], int size)
 {
+    cout << " The Array : ";
     for (int i = 0; i < size; i++)
     {
         cout << arr[i] << " ";
     }
-    cout << endl;
+    cout << endl ;
 }
 bool linearSearch(int arr[], int size, int target)
 {
@@ -21,19 +23,18 @@ bool linearSearch(int arr[], int size, int target)
 }
 int main()
 {
-    int arr[4] = {1, 5, 6};
-    int size = 3;
+    int arr[5] = {1, 2, 3, 4, 5};
+    int size = 5;
     int target = 5;
+    printArr(arr, size);
     bool ans = linearSearch(arr, size, target);
-    if (ans == true)
+    if (ans == 1)
     {
-        cout << " Target Found" << endl;
+        cout << " Target is found " << endl;
     }
     else
     {
-        cout << "Target not found" << endl;
+        cout << " Target is not found " << endl;
     }
-
-    //    printArray(arr, size);
     return 0;
 }

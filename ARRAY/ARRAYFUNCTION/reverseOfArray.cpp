@@ -11,7 +11,7 @@ void reverseArray(int arr[], int size)
     // }
     while (left <= right)
     { // condition for both even and odd no. of array
-        swap(arr[left], arr[right]);
+        swap(arr[left], arr[right]); // +,-,XOR,tempary variable se bhi kr skte hain 
         left++;
         right--;
     }
